@@ -1,0 +1,29 @@
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\acme.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\branch.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\cut.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\farmer.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\korean.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\limpopo.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\santa.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\DataAccess.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\DataAccess.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\bin\Release\Models.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\obj\Release\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\obj\Release\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\obj\Release\Business.CF5D6E35.Up2Date
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\BusinessLogic\obj\Release\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\DataAccess.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\Models.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\DataAccess.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\bin\Release\Models.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\obj\Release\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\obj\Release\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\obj\Release\Business.CF5D6E35.Up2Date
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\BusinessLogic\obj\Release\BusinessLogic.pdb
