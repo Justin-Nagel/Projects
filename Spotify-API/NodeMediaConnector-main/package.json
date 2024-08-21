@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "got": "^14.3.0",
+    "inquirer": "^9.2.22",
+    "node-fetch": "^3.3.2",
+    "oauth": "^0.10.0",
+    "twitter": "^1.1.0",
+    "twitter-api-v2": "^1.17.0"
+  },
+  "name": "wpr381",
+  "description": "��#\u0000 \u0000W\u0000P\u0000R\u00003\u00008\u00001\u0000-\u0000A\u0000s\u0000s\u0000i\u0000g\u0000n\u0000m\u0000e\u0000n\u0000t\u00001\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
