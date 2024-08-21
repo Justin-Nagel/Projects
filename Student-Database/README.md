@@ -1,34 +1,46 @@
-# Programming Project Year 2
+Programming Project Year 2
+This project was developed by a group of four students. We were required to create a Windows-Based Application that captures and stores student information into a database.
 
-This is a project worked on in a group of 4 students, we were required to create a _Windows Based Application_ that captures and stored student information into a database.
+Instructions
+The goal of this project is to develop an application that manages student information for the campus. The final product must be a fully functioning Windows-based application capable of capturing student details and storing them in an SQL relational database. The project must utilize a Multi-Layered Architecture, consisting of the following three tiers:
 
-_Instructions_
+Presentation Layer: The Windows Forms GUI.
+Business Logic Layer: Handles CRUD operations (Create, Read, Update, Delete) and File I/O.
+Data Access Layer: Implements ADO.Net and manages the SQL Database.
+Client Requirements
+Login Form:
 
+A Data Capturer should be presented with a login form requiring a username and password.
+Store sample usernames and passwords in a text file (format of your choice).
+Authenticate the login when a Data Capturer attempts to sign in.
+If a Data Capturer does not have a username and password, they should be able to register as a new user. Store their login details in the text file.
+Ensure all necessary validations are performed for the login form.
+Main Application GUI:
 
-Create an application which will be responsible for managing student information for the campus. The end product must be a fully functioning Windows Based application which will capture details of students and details of the modules that the students do and store in an SQL Relational Database. In your project, you need to utilize the Multi Layered Architecture. Your application must comprise of the following 3-tiers:
+Once logged in, the Data Capturer should be presented with a custom-designed Windows GUI to perform all CRUD operations.
+Utilize ADO.Net to manage database interactions.
+All data must be stored in an SQL Server database.
+Student Information Management:
 
-a) Presentation Layer [Your Windows Forms GUI]
+Create: Capture and store the following student details in the database:
+Student Number
+Student Name and Surname
+Student Image
+Date Of Birth
+Gender
+Phone Number
+Address
+Module Codes
+Read: Display student information using a ListView or DataGridView.
+Update: Allow updating of student information.
+Delete: Enable deletion of student information.
+Search: Implement a search functionality to find a student's information using their Student ID.
+Module Information Management:
 
-b) Business Logic Layer [CRUD functions that will be necessary to implement a persistent storage application: Create, Read, Update and Delete, File I/O]
-
-c) Data Access Layer [ADO.Net and SQL Database]
-
-#Requirements from client
-1)A Data Capturer should be presented with a Login Form which will require their Username and Password. Store sample Usernames and Passwords on a text file [in any format of your choosing]. The login should be verified and authenticated when a Data Capturer attempts to login. If a Data Capturer does not have a Username and Password, they should be able to register as a new user and their login details stored on the text file. Make sure all necessary validations are done for the Login Form.
-2)Once the Data Capturer logs on the application, they should be presented with a Windows GUI of your design in order to perform all CRUD operations. Utilize ADO.Net to achieve this. All information MUST be stored on a database using SQL Server.
-3)When capturing student information, on Create, the application should capture the following student information to the database:
-▪ Student Number
-▪ Student Name and Surname
-▪ Student Image
-▪ Date Of Birth
-▪ Gender
-▪ Phone
-▪ Address
-▪ Module Codes
-4) On Read, make sure student information can be displayed in a ListView or DataGridView. On Update, it must be possible to change student’s information. On Delete, it must be possible to delete student’s information. The application must also have a Search functionality to search a particular student’s information using the Student’s ID.
-5) When capturing module information, on Create, the application should capture the following module information to the database:
-▪ Module Code
-▪M odule Name
-▪ Module Description
-▪ Links to particular online resources (use YouTube videos that relate to each module)
-6)The rest of the other CRUD operations must apply for displaying, updating, deleting and searching for a module to and from the database.
+Create: Capture and store the following module details in the database:
+Module Code
+Module Name
+Module Description
+Links to relevant online resources (e.g., YouTube videos related to the module)
+Read/Update/Delete: Implement CRUD operations for module information.
+Search: Implement a search functionality for modules.
