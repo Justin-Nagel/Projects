@@ -5,19 +5,19 @@ The Oauth also needs to be tested before any request can be made.
 
 ## Created accounts
 1. Google:
-   Email - wpr381assignment@gmail.com
-   Password - WPR381Assignment!@#$
+   Email - w****t@gmail.com
+   Password - ******
 
 2. X:
-   Username - wpr381Assignment (login)
-   Username - @Wpr381A (@username)
-   Password - WPR381Assignment!@#$
+   Username - w****t (login)
+   Username - ****** (@username)
+   Password - **********
    Website URL: https://wpr381.com/twitter/callback
    callback UrL: http://localhost:3000/twitter/callback
 
 3. Spotify:
-   Email - wpr381assignment@gmail.com
-   Password - WPR381Assignment!@#$
+   Email - w****t@gmail.com
+   Password - ******
    Name - WPR-Assignment
 
 ## Installation To install the required dependencies: 
