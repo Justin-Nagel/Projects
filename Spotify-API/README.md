@@ -27,7 +27,7 @@ This Node.js application interacts with the Twitter, Spotify APIs to retrieve an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Lincalibur/WPR381-Assignment1.git
+   git clone https://github.com/**********/*******Assignment1.git
 
 ## How to run Application:
 -**Open Terminal.**
