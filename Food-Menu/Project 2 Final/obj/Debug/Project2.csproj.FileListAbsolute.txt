@@ -1,0 +1,12 @@
+F:\MSVS\PRG182\Project2\bin\Debug\Project2.exe
+F:\MSVS\PRG182\Project2\bin\Debug\Project2.pdb
+F:\MSVS\PRG182\Project2\obj\Debug\Project2.csproj.AssemblyReference.cache
+F:\MSVS\PRG182\Project2\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+F:\MSVS\PRG182\Project2\obj\Debug\Project2.exe
+F:\MSVS\PRG182\Project2\obj\Debug\Project2.pdb
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\bin\Debug\Project2.exe
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\bin\Debug\Project2.pdb
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\obj\Debug\Project2.csproj.AssemblyReference.cache
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\obj\Debug\Project2.csproj.CoreCompileInputs.cache
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\obj\Debug\Project2.exe
+C:\Users\justi\OneDrive\Desktop\Project 2 Final\obj\Debug\Project2.pdb
