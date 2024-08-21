@@ -1,0 +1,15 @@
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\Presentation.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\Presentation.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\BusinessLogic.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\ConsoleTables.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\DataAccess.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\DataAccess.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\Models.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Debug\ConsoleTables.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Debug\Presenta.BC777DBE.Up2Date
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Debug\Presentation.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Debug\Presentation.pdb

@@ -1,0 +1,37 @@
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\acme.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\branch.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\cut.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\farmer.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\korean.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\limpopo.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\santa.txt
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\Presentation.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\Presentation.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\ConsoleTables.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\DataAccess.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\DataAccess.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\Models.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\bin\Release\ConsoleTables.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Release\Presentation.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Release\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Release\Presenta.BC777DBE.Up2Date
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Release\Presentation.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Presentation\obj\Release\Presentation.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\Presentation.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\Presentation.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\BusinessLogic.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\ConsoleTables.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\DataAccess.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\Models.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\BusinessLogic.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\DataAccess.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\Models.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\bin\Release\ConsoleTables.pdb
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\obj\Release\Presentation.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\obj\Release\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\obj\Release\Presenta.BC777DBE.Up2Date
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\obj\Release\Presentation.dll
+C:\Users\EstiaanBritz\Desktop\LPR_381_Project\Presentation\obj\Release\Presentation.pdb
