@@ -1,4 +1,4 @@
-#Programming Year 2
+##Programming Year 2
 
 This is a project worked on in a group of 4 students, we were required to create a _Windows Based Application_ that captures and stored student information into a database.
 
