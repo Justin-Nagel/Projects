@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #2196F3;
+    width: 120px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 30px !important;
+    color: #2196F3 !important;
+    font-size: x-large !important;
+    margin-left: 27px;
+  }
+  
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .form-row {
+    margin-bottom: 20px;
+    margin-left: -130px;
+  }
+  input{
+    border: none;
+    border-bottom: var(--bs-secondary) solid 1px;
+  }
+  select{
+    border: none;
+    border-bottom: var(--bs-secondary) solid 1px;
+  }
+  .input-group {
+    flex-direction: column;
+    margin-left: 60px;
+  }
+  #first-name{
+   margin-right: 800px;
+  }
+  #lastname{
+    margin-right: 550px;
+    margin-top: -63px;
+    margin-left: 250px; 
+  }
+  #last-name{
+    margin-right: 550px;
+    margin-top: 1px;
+    margin-left: 250px;
+  }
+  #email2{
+    margin-left: -130px;
+    margin-top: 10px;
+  }
+  #email{
+    margin-right: 750px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+  }
+  #userid{
+    margin-top: -71px;
+    margin-left: 120px;
+  }
+  #user-id{
+    margin-right: 650px;
+    margin-left: 120px;
+  }
+  #Country2{
+    margin-left: -130px;
+    margin-top: 15px;
+  }
+  #country{
+    margin-right: 850px;
+    margin-left: -135px;
+  }
+  #state2{
+    margin-top: -57px;
+  }
+  #state{
+    margin-right: 695px;
+    margin-top: -1px;
+  }
+  #city2{
+    margin-top: -58px;
+    margin-left: 140px;
+  }
+  #city{
+    margin-right: 500px;
+    margin-left: 135px;
+  }
+  #phone2{
+    margin-top: 20px;
+    margin-left: -135px;
+  }
+  #phone{
+    margin-right: 750px;
+    margin-left: -135px;
+    margin-top: -5px;
+  }
+  #reference-code2{
+    margin-top: -56px;
+    margin-left: 120px;
+  }
+  #reference-code{
+    margin-right: 490px;
+    margin-top: -4px;
+    margin-left: 120px;
+  }
+  label, input, select {
+    margin-bottom: 10px;
+  }
+
+  .reference-code{
+    margin-left: 100px;
+  }
+  
+  .buttons {
+    align-items: center; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  #reset{
+    margin-left: 170px;
+    color: grey;
+    background-color: white;
+    border: none;
+  }
+  #continue-button {
+    background-color: #2196F3;
+    color: white;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 150px;
+  }
+  label{
+    color: var(--bs-secondary)!important;
+  }
+  .input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-with-icon {
+    padding-right: 30px; 
+  }
+  
+  .icon {
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    transform: translateY(-50%);
+    fill: forestgreen;
+    pointer-events: none; 
+  }
+  .input-wrapper2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-with-icon2 {
+    padding-right: 30px; 
+  }
+  
+  .icon2 {
+    position: absolute;
+    top: 15px;
+    left: 310px; 
+    transform: translateY(-50%);
+    fill: grey; 
+    pointer-events: none; 
+  }
+.test{
+  color: #2196F3!important;
+}
+  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Basic Detail</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <div class="sidebar"></div>
+  <div class="main-content">
+    <h1 id="h1">Basic Details</h1>
+    <form id="user-form1" action="ReDisplay.html" method="get">
+      <div class="form-row">
+        <div class="input-group">
+          <label for="first-name" id="first-name-label">First Name:</label>
+          <input type="text" id="first-name" name="first-name" class="" required>
+        </div>
+        <div class="input-group">
+          <label for="last-name" id="lastname">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+      </div>
+      
+      <div class="form-row2">
+        <div class="input-group">
+          <label for="email" id="email2">Email ID</label>
+          <div class="input-wrapper">
+            <input type="email" id="email" class="input-with-icon" placeholder="" name="email" required>
+            <svg id="check-mark" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2 icon" viewBox="0 0 16 16" hidden>
+              <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+            </svg>
+          </div>
+        </div>
+        
+        <div class="input-group">
+          <label for="user-id" id="userid">Your User ID</label>
+          <div class="input-wrapper2">
+            <input type="text" id="user-id" class="input-with-icon2" placeholder="" name="user-id" required>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock icon2" viewBox="0 0 16 16">
+              <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+            </svg>
+        </div>
+        
+        </div>
+      </div>
+      
+      <div class="form-row3">
+        <div class="input-group">
+          <label for="country" id="Country2">Country</label>
+          <select id="country" name="country" required>
+            <option value=""></option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="South-Africa">South-Africa</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Sweden">Sweden</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="state" id="state2">State</label>
+          <select id="state" name="state" required>
+            <option value=""></option>
+            <option value="New-York">New York</option>
+            <option value="California">California</option>
+            <option value="Gauteng">Gauteng</option>
+            <option value="Øresund">Øresund</option>
+            <option value="län">län</option>
+          </select>
+          <div class="input-group">
+            <label for="city" id="city2">City</label>
+            <select id="city" name="city" required>
+              <option value=""></option>
+              <option value="New-York-City">New York City</option>
+              <option value="Los-Angeles">Los Angeles</option>
+              <option value="Pretoria">Pretoria</option>
+              <option value="Copenhagen">Copenhagen</option>
+              <option value="Stockholm">Stockholm</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-row4">
+        <div class="input-group">
+          <label for="phone" id="phone2">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="input-group">
+          <label for="reference-code" id="reference-code2">Reference Code</label>
+          <input type="text" id="reference-code" name="reference-code" class="reference-code" required>
+        </div>
+      </div>
+
+       <div class="form-row buttons">
+       <div class="form-row buttons">
+        <button type="reset" class="btn btn-primary" onclick="resetForm()" id="reset">Reset All</button>
+        <button type="submit" class="disabled" id="continue-button" disabled>Continue</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="App.js"></script>
+</body>
+</html>
