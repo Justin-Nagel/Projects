@@ -1,4 +1,4 @@
-# Node.js App with Twitter, Spotify
+# Node.js App with ~~Twitter~~, Spotify
 
 ## Overview
 
