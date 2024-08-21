@@ -1,4 +1,4 @@
-# **C# Console Application: Fast-Food Restaurant Menu Simulator**
+# **C# Console Application: Fast-Food Restaurant Menu Simulator - Year 1**
 
 Write a C# console application that simulates the menu for a fast-food restaurant. You can choose any known restaurant or create your own. The application should utilize multiple Enum-driven menus for the various categories of food or drink items that can be purchased.
 
