@@ -37,10 +37,6 @@ Create a website for your friend who is getting married. The aim is to provide e
 - Proper use of HTML5 and CSS in combination.
 - Good file structure.
 
-Please view the appendices below for guidance on the expected layout and structure. This should also give an indication of the expected level of detail. You are not required to make an exact replica of the implementation provided. Your design must, as a basic requirement, be comparable to the samples.
-
-**Note:** An immediate fail will be awarded to any student who uses templates in this project.
-
 ## **Important Aspects to Remember**
 1. The feel of a website for a wedding is very important for the bride.
 2. The couple loves music and videos and wants to share their favorites on the website (which to use is up to you).
