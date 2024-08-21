@@ -1,3 +1,5 @@
+# **VS Code Terminal Project - Year 2**
+
 # Node.js App with ~~Twitter~~, Spotify
 
 ## Overview
