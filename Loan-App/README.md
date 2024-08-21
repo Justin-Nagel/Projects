@@ -1,4 +1,4 @@
-# **Programming Project Year 2**
+# **Programming Project - Year 2**
 
 This was a second-year group project for a programming class. The objective was to create an application that determines two types of loans for a company.
 
