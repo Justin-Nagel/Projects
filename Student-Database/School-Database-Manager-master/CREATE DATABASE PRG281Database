@@ -1,0 +1,74 @@
+-- Create the new database
+CREATE DATABASE PRG281Database;
+GO
+
+-- Use the newly created database
+USE PRG281Database;
+GO
+
+-- Create the Modules table
+CREATE TABLE Modules (
+    ModuleCode varchar(30) PRIMARY KEY,
+    ModuleName varchar(60) NOT NULL,
+    ModuleDescription varchar(MAX) NOT NULL,
+    Links varchar(MAX)
+);
+GO
+
+
+INSERT INTO Modules VALUES
+('LPR281', 'Linear Programming', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', ''),
+('SWT281', 'Software Testing', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', ''),
+('MAT282', 'Advanced Mathematics', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', ''),
+('IOT281', 'Internet of Things', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', ''),
+('DBD281', 'Database Management', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', ''),
+('INL281', 'Innovation Leadership', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua', '');
+
+
+-- Create the Student table
+CREATE TABLE Student (
+    StudentNumber int PRIMARY KEY  IDENTITY (1,1),
+    Name varchar(30) NOT NULL,
+    Surname varchar(30) NOT NULL,
+    StudentImage VARBINARY(MAX),
+    DOB Date,
+    Gender varchar(10) NOT NULL,
+    Phone varchar(15) NOT NULL,
+    Address varchar(50) NOT NULL
+);
+GO
+
+INSERT INTO Student VALUES
+( 'Olivia', 'Davis', 0x, '2001-03-10', 'Female', '(555) 555-1212', '789 Oak Ave'),
+( 'Noah', 'Miller', 0x, '1998-11-30', 'Male', '(555) 369-8521', '101 Pine Rd'),
+( 'Sophia', 'Wilson', 0x, '2002-07-08', 'Female', '(555) 246-8130', '222 Cedar Ln'),
+('Ethan', 'Brown', 0x, '1997-04-25', 'Male', '(555) 777-8888', '333 Birch Pl'),
+( 'Mia', 'Anderson', 0x, '2003-01-19', 'Female', '(555) 444-3322', '444 Maple Dr'),
+( 'Aiden', 'Taylor', 0x, '1996-09-05', 'Male', '(555) 999-5555', '555 Spruce Ave'),
+('Isabella', 'White', 0x, '2004-06-12', 'Female', '(555) 123-9876', '66 Willow Rd'),
+('Jackson', 'Martinez', 0x, '1995-02-28', 'Male', '(555) 987-1234', '777 Redwood St'),
+( 'Emma', 'Thompson', 0x, '2000-08-15', 'Female', '(555) 111-2222', '888 Pine St'),
+( 'Liam', 'Williams', 0x, '1999-05-21', 'Male', '(555) 333-4444', '999 Oak Ave');
+
+
+
+-- Create the StudentModules junction table
+CREATE TABLE StudentModules (
+    StudentNumber int,
+    ModuleCode varchar(30),
+    FOREIGN KEY (StudentNumber) REFERENCES Student (StudentNumber),
+    FOREIGN KEY (ModuleCode) REFERENCES Modules (ModuleCode)
+);
+GO
+
+INSERT INTO StudentModules VALUES
+(1, 'LPR281'), (1, 'SWT281'), (1, 'MAT282'),
+(2, 'IOT281'), (2, 'DBD281'), (2, 'INL281'),
+(3, 'LPR281'), (3, 'SWT281'), (3, 'MAT282'),
+(4, 'IOT281'), (4, 'DBD281'), (4, 'INL281'),
+(5, 'LPR281'), (5, 'SWT281'), (5, 'MAT282'),
+(6, 'IOT281'), (6, 'DBD281'), (6, 'INL281'),
+(7, 'LPR281'), (7, 'SWT281'), (7, 'MAT282'),
+(8, 'IOT281'), (8, 'DBD281'), (8, 'INL281'),
+(9, 'LPR281'), (9, 'SWT281'), (9, 'MAT282'),
+(10, 'IOT281'), (10, 'DBD281'), (10, 'INL281');

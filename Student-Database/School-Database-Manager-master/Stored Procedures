@@ -1,0 +1,190 @@
+USE [PRG281Database]
+GO
+
+/****** Object:  StoredProcedure [dbo].[DeleteModule]    Script Date: 2023/11/13 21:48:24 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[DeleteModule]
+    @ModuleNumber INT
+AS
+BEGIN
+    DELETE FROM Module WHERE ModuleNumber = @ModuleNumber;
+END;
+
+/****** Object:  StoredProcedure [dbo].[GetStudentImage]    Script Date: 2023/11/13 21:48:33 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[GetStudentImage]
+    @StudentNumber INT
+AS
+BEGIN
+    SELECT StudentImage
+    FROM Student
+    WHERE StudentNumber = @StudentNumber;
+END;
+
+/****** Object:  StoredProcedure [dbo].[InsertModule]    Script Date: 2023/11/13 21:48:41 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[InsertModule]
+    @ModuleCode NVARCHAR(50),
+    @ModuleName NVARCHAR(255),
+    @ModuleDescription NVARCHAR(MAX),
+    @Links NVARCHAR(MAX)
+AS
+BEGIN
+    INSERT INTO Modules (ModuleCode, ModuleName, ModuleDescription, Links)
+    VALUES (@ModuleCode, @ModuleName, @ModuleDescription, @Links);
+END;
+
+/****** Object:  StoredProcedure [dbo].[ShowModuleData]    Script Date: 2023/11/13 21:48:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[ShowModuleData]
+AS
+BEGIN
+    SELECT * FROM Modules;
+END;
+
+/****** Object:  StoredProcedure [dbo].[spDeletStudents]    Script Date: 2023/11/13 21:49:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE [dbo].[spDeletStudents]
+(@StudentNumber int)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        -- Delete from StudentModules first
+        DELETE FROM StudentModules WHERE StudentNumber = @StudentNumber;
+
+        -- Now delete from Student
+        DELETE FROM Student WHERE StudentNumber = @StudentNumber;
+
+        COMMIT;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK;
+        -- Optionally, handle the exception (e.g., log it or re-throw)
+        THROW;
+    END CATCH;
+END;
+
+/****** Object:  StoredProcedure [dbo].[spDisplayStudents]    Script Date: 2023/11/13 21:50:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spDisplayStudents]
+AS 
+BEGIN
+    SELECT 
+        [StudentNumber],
+        [Name],
+        [Surname],
+        [DOB],
+        [Gender],
+        [Phone],
+        [Address] 
+    FROM Student;
+END
+
+/****** Object:  StoredProcedure [dbo].[spInsertStudent]    Script Date: 2023/11/13 21:50:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spInsertStudent]
+    @Name NVARCHAR(50),
+    @Surname NVARCHAR(50),
+    @StudentImage VARBINARY(MAX),
+    @DOB1 DATE,
+    @Gender NVARCHAR(10),
+    @Phone NVARCHAR(20),
+    @Address NVARCHAR(100)
+AS
+BEGIN
+    INSERT INTO Student (Name, Surname, StudentImage, DOB, Gender, Phone, Address)
+    VALUES (@Name, @Surname, @StudentImage, @DOB1, @Gender, @Phone, @Address);
+END
+
+/****** Object:  StoredProcedure [dbo].[spUpdateStudent]    Script Date: 2023/11/13 21:51:06 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spUpdateStudent]
+    @StudentNumber INT,
+    @Name NVARCHAR(50),
+    @Surname NVARCHAR(50),
+    @StudentImage VARBINARY(MAX),
+    @DOB1 DATE,
+    @Gender NVARCHAR(10),
+    @Phone NVARCHAR(20),
+    @Address NVARCHAR(100)
+AS
+BEGIN
+    UPDATE Student
+    SET
+        Name = @Name,
+        Surname = @Surname,
+        StudentImage = @StudentImage,
+        DOB = @DOB1,
+        Gender = @Gender,
+        Phone = @Phone,
+        Address = @Address
+    WHERE
+        StudentNumber = @StudentNumber;
+END
+
+/****** Object:  StoredProcedure [dbo].[UpdateModule]    Script Date: 2023/11/13 21:51:13 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[UpdateModule]
+    @ModuleCode NVARCHAR(50),
+    @ModuleName NVARCHAR(255),
+    @ModuleDescription NVARCHAR(MAX),
+    @Links NVARCHAR(MAX)
+AS
+BEGIN
+    UPDATE Modules
+    SET 
+        ModuleName = @ModuleName,
+        ModuleDescription = @ModuleDescription,
+        Links = @Links
+    WHERE ModuleCode = @ModuleCode; -- Assuming ModuleCode is a unique identifier
+END;
+
+
+GO
+/****** Object:  StoredProcedure [dbo].[DeleteModule]    Script Date: 2023/11/13 23:04:37 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+ALTER PROCEDURE [dbo].[DeleteModule]
+    @ModuleCode varchar(200)
+AS
+BEGIN
+    DELETE FROM Modules WHERE ModuleCode = @ModuleCode;
+END;
+
+/****** Object:  StoredProcedure [dbo].[GetStudentImage]    Script Date: 2023/11/13 21:48:33 ******/
+SET ANSI_NULLS ON
+
