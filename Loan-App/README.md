@@ -4,8 +4,12 @@ What was required in the project was to make an application that determines two 
 _Instructions_
 
 Unique Building Services Loan Company gives out loans of up to R100 000 for construction projects. There are two categories of loans:
+
 • Business loans
+
 • Individual loans.
+
+
 
 Write a C# Console application that tracks all new construction loans. The application must calculate the total amount owed at the due date (original loan amount + loan fee). The application should include the following classes:
 
