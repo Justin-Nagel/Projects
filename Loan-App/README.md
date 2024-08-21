@@ -9,8 +9,6 @@ Unique Building Services Loan Company gives out loans of up to R100 000 for cons
 
 • Individual loans.
 
-
-
 Write a C# Console application that tracks all new construction loans. The application must calculate the total amount owed at the due date (original loan amount + loan fee). The application should include the following classes:
 
 • Loan: A public abstract class that implements the LoanConstants interface. A Loan includes a loan number, customer lastname, customer firstname, loan amount, interest rate, and term. The constructor requires data for each of the fields except the interest rate. Do not allow loan amounts greater than R100 000. Force any loan term that is not one of the three defined in the LoanConstants class to a short-term, 1-year loan.
