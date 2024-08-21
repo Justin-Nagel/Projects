@@ -13,9 +13,9 @@ This Node.js application interacts with the Twitter, Spotify APIs to retrieve an
 
 ### ~~Twitter API Integration~~
 
-- **Command**: ~~`node app.js tweets <username> <count>`~~
-- **Description**: ~~Fetches the latest tweets from the specified username, limited to the number of tweets specified.~~
-- **Output**: ~~A JSON object containing an array of the most recent tweets.~~
+- **~~Command**: `node app.js tweets <username> <count>`~~
+- **~~Description**: Fetches the latest tweets from the specified username, limited to the number of tweets specified.~~
+- **~~Output**: A JSON object containing an array of the most recent tweets.~~
 
 ### Spotify API Integration
 
