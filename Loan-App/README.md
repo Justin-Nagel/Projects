@@ -4,7 +4,6 @@ What was required in the project was to make an application that determines two 
 _Instructions_
 
 Unique Building Services Loan Company gives out loans of up to R100 000 for construction projects. There are two categories of loans:
-
 • Business loans
 • Individual loans.
 
