@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Wedding Website: Log In</title>
+    <link rel="stylesheet" href="cssLogIn.css"/>
+</head>
+<body>
+    <section id="container">
+        
+        <header>
+            <img id="ImgbirdHeader" src="Images/Bird.png" alt="Bird" />
+            <section id="linksHeader">
+                <nav>
+                    <ul>
+                        <li class="headLinks">
+                            <a href="Home.html">HOME</a>
+                        </li>
+                        <li class="headLinks">
+                            <a href="ContactUs.html">CONTACT US</a>
+                        </li>
+                        <li class="headLinks">
+                            <a href="Diet Options.html">DIET OPTIONS</a>
+                        </li>
+                        <li class="headLinks">
+                            <a href="Memories.html">MEMORY LANE</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+        </header>
+        <div id="loginHead">
+            <h3>Log-In Page</h3>
+        </div>
+
+        <section id="rsvp">
+            <section id="rsvpContent">
+                <form>
+                    <h1>Log-In</h1>
+                    <fieldset>
+                        <div class="rsvpResponse">
+                            <label for="name">First and Last Name</label>
+                            <br />
+                            <input class="input" type="text" name="name" />
+
+                            <br />
+                            <br />
+
+                            <label for="email">Email Address </label>
+                            <br />
+                            <input class="input" type="email" name="email" />
+
+                            <br />
+                            <br />
+
+                            <label for="password">Password </label>
+                            <br />
+                            <input class="input" type="password" name="password" />
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <div class="rsvpResponse">
+                            <label for="attending">Are you attending?</label>
+                            <br />
+                            <select class="input" id="attending">
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <div class="rsvpResponse">
+                            <label for="guests">How many guests?</label>
+                            <br />
+                            <select class="input" id="guests" required>
+                                <option value="1" selected>1</option>
+                                <option value="2" selected>2</option>
+                                <option value="3" selected>3</option>
+                                <option value="4" selected>4</option>
+                                <option value="5" selected>5</option>
+                                <option value="6" selected>6</option>
+                                <option value="7" selected>7</option>
+                                <option value="8" selected>8</option>
+                            </select>
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <div>
+                            <label for="giftType">What gift type are you giving?</label>
+                            <br />
+                            <select class="input" id="giftType" required>
+                                <option value="1">Other</option>
+                                <option value="2">Love (none)</option>
+                                <option value="3">Clothing</option>
+                                <option value="3">Accessories</option>
+                            </select>
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <div>
+                            <label for="mainFood">Select Main Course Diet Option.</label>
+                            <br />
+                            <label id="dietLabel" for="mainFood">Please refer to <a href="Diet Options.html" target="_blank">Diet Options</a></label>
+                            <br />
+                            <select class="input" required>
+                                <option value="1">Non-Vegan</option>
+                                <option value="2">Vegan</option>
+                            </select>
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <div>
+                            <label for="dessert">Select Dessert Option</label>
+                            <br />
+                            <label id="dietLabel" for="mainFood">Please refer to <a href="Diet Options.html" target="_blank">Diet Options</a></label>
+                            <br />
+                            <select class="input" required>
+                                <option value="1">Non-Vegan</option>
+                                <option value="2">Vegan</option>
+                            </select>
+
+                            <br />
+                            <br />
+                        </div>
+
+                        <input class="input" type="submit" value="Submit RSVP" />
+
+                        <h1 id="thankYou">THANK YOU!</h1>
+                    </fieldset>
+                </form>
+            </section>
+            
+        </section>
+        <footer>
+            <a href="Home.html"><img id="ImgbirdFooter" src="Images/bird.png" /></a>
+            <br />
+            <p>Student 577725 &copy; Justin Nagel</p>
+        </footer>
+    </section>
+</body>
+</html>

@@ -1,0 +1,166 @@
+﻿body{
+    background: url(Images/ContactUsBG.jpg) no-repeat;
+    background-size: cover;
+}
+#linksHeader {
+    display: inline-block;
+    margin-left: 450px;
+}
+#ImgbirdHeader {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(195, 61, 36);
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 1px 1px 2px 2px brown;
+}
+header {
+    display: flex;
+    background-color: rgb(51, 51, 51);
+    border-radius: 8px;
+    width: 99.8%;
+    height: 100px;
+    box-shadow: 3px 3px 3px 3px brown;
+}
+.headLinks:visited {
+    color: black;
+}
+.headLinks a {
+    color: black;
+    text-decoration: none;
+}
+.headLinks:hover {
+    color: black;
+    background-color: brown;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}
+
+.headLinks {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+    background-color: rgb(195, 61, 36);
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 1px 1px 2px 2px brown;
+}
+#contentBG {
+    width: 78%;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 200px;
+    background-color: maroon;
+    border: solid black;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px 5px brown;
+}
+#infoHeadMain{
+    font-size: 45px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: -3px -3px 3px 3px brown;
+    border-radius: 15px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+#groomInfo:hover h1{
+    text-decoration: underline;
+    color: blue;
+}
+#devInfo:hover h1{
+    font-style: italic;
+    color: crimson;
+}
+#brideInfo:hover h1{
+    font-family: Stencil;
+    color: deeppink;
+}
+fieldset{
+    border: none;
+    background-color: rgb(36, 36, 36);
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+#content {
+    display: flex;
+    width: 1420px;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0 auto;
+    background-color: brown;
+    border-radius: 8px;
+    box-shadow: -3px -3px 3px black;
+    border: solid;
+    margin-bottom: 10px;
+}
+#content fieldset{
+    margin-top: 10px;
+}
+.infoHead{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px brown;
+}
+.infoMain p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
+}
+.infoMain div {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px brown;
+}
+.infoMain p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(51, 51, 51);
+    border-radius: 8px;
+    width: 99.9%;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px brown;
+    border: 2px solid black;
+    margin-top: 20px;
+    text-align: center;
+}
+footer p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+#ImgbirdFooter {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    background-color: rgb(195, 61, 36);
+    border-radius: 10px;
+    border: 2px solid;
+    box-shadow: 1px 1px 2px 2px brown;
+}
+footer p a {
+    font-family: 'Times New Roman', Times, serif;
+}
+#ImgbirdFooter:hover {
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}

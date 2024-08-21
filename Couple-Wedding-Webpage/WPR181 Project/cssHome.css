@@ -1,0 +1,137 @@
+﻿body{
+    background: url(Images/HomeBG.jpg) no-repeat;
+    background-size: cover;
+   
+}
+#linksHeader {
+    display: inline-block;
+    margin-left: 450px;
+}
+
+#ImgbirdHeader {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    width: 99.8%;
+    height: 100px;
+    border: 4px;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.headLinks:visited {
+    color: black;
+}
+
+.headLinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.headLinks:hover {
+    color: black;
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}
+#ImgbirdHeader:hover {
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}
+
+.headLinks {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+#container {
+    background-color: orange;
+    padding: 10px;
+    width: 80%;
+    border: solid 2px;
+    border-radius: 15px;
+    margin: auto;
+}
+#content{
+    background-color: navajowhite;
+    border-radius: 30px;
+}
+.topHead{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+#content h2{
+    text-align: center;
+    font-style: italic;
+}
+
+
+#mainContent{
+    background-color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: -3px 3px 0.0000000001px 3px;
+}
+#coupleMain{
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+}
+#wedDate{
+    font-size: 20px;
+    font-family: Algerian;
+}
+#this{
+    font-size: 25px;
+    font-family: 'Lucida Calligraphy';
+}
+#mainContent p{
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+footer {
+    background-color: white;
+    border-radius: 8px;
+    width: 99.9%;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px darkorange;
+    border: 2px solid darkorange;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ImgbirdFooter {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+    #ImgbirdFooter:hover {
+        background-color: darkorange;
+        box-shadow: -3px -3px 3px black;
+        border-radius: 5px;
+    }
+footer p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

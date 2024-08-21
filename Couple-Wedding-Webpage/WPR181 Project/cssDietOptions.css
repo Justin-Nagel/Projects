@@ -1,0 +1,236 @@
+﻿body{
+    background: url(Images/DietOptionsBG.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+    height: 100px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: -3px -3px 3px 3px white;
+}
+#ImgbirdHeader {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#linksHeader {
+    display: inline-block;
+    float: right;
+}
+.headLinks:visited {
+    color: black;
+}
+.headLinks a {
+    color: black;
+    text-decoration: none;
+}
+.headLinks:hover {
+    color: black;
+    background-color: cadetblue;
+    box-shadow: -3px -3px 3px black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.headLinks {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+#contentHolder {
+    background-color: navajowhite;
+    width: 80%; 
+    margin-left: 180px;
+    box-shadow: -3px -3px 3px 3px black;
+    border: 2px solid solid;
+    border-radius: 10px;
+}
+#foodOptions {
+    background-color: navajowhite;
+    width: 98.7%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 3px 3px coral;
+    border: 2px solid white;
+    
+}
+#dishes{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: 2px solid;
+    box-shadow: -2px -2px 3px 3px black;
+    
+}
+#mainFoodHead:hover{
+    box-shadow: 2px 2px 2px 2px coral;
+    border: solid coral;
+}
+#mainFoodHead {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 60px;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 370px;
+    margin-left: 770px;
+}
+#chickenTacoPic {
+    float: left;
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    
+}
+#chickenTacos{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
+#doughnuts h1{
+    font-size: 35px;
+    
+}
+#wafflesPic {
+    float: right;
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+#divider{
+    border-bottom: 2px solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#mushroomStroganoffPic {
+    float: left;
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+#mushroomStroganoff {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#veganTofu {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+#bruleePic {
+    float: left;
+    width: 250px;
+    height: 190px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+#vegDes h1 {
+    font-size: 35px;
+}
+#pecanPiePic {
+    float: right;
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.leftHead {
+    padding-top: 10px;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+.leftPar {
+    width: 70%;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.rightHead {
+    font-size: 35px;
+    text-decoration: underline;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 1330px;
+}
+.rightPar {
+    text-align: right;
+    margin-left: 350px;
+    width: 980px;
+    font-size: 25px;
+}
+.leftPic {
+    float: left;
+    width: 350px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.rightPic {
+    float: right;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+footer {
+    background-color: white;
+    border-radius: 8px;
+    width: 99.9%;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px darkorange;
+    border: 2px solid darkorange;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#ImgbirdFooter {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+footer p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#ImgbirdFooter:hover {
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}

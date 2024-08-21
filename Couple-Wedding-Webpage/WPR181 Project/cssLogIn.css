@@ -1,0 +1,140 @@
+﻿body{
+    background: url(Images/LogInBG.jpg) no-repeat;
+    background-size: cover;
+}
+#linksHeader {
+    display: inline-block;
+    margin-left: 450px;
+}
+.headLinks:visited {
+    color: black;
+}
+.headLinks a {
+    color: black;
+    text-decoration: none;
+}
+.headLinks:hover {
+    color: black;
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}
+.headLinks {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+header {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    width: 99.9%;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px darkorange;
+    border: 2px solid darkorange;
+}
+ImgbirdHeader {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#loginHead{
+    text-align: center;
+    font-size: 80px;
+   height: 200px;
+    
+}
+#loginHead h3{
+        background-color: white;
+        margin-right: 670px;
+        margin-left: 670px;
+        border-radius: 15px;
+        border: 2px solid;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+#rsvp {
+    background-color: tan;
+    border: 3px solid black;
+    box-shadow: -4px -4px 4px 4px darkorange;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 40px;
+}
+#rsvpContent {
+    background-color: white;
+    margin: 10px;
+    padding: 1px;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px 3px darkorange;
+    border: 2px solid;
+}
+#rsvp h1 {
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.input {
+    font-size: 20px;
+    background-color: darkorange;
+    border-radius: 10px;
+}
+.input:focus { /*Does not work if user auto-fills*/
+        background-color: darkorange !important;       
+}
+#rsvp fieldset{
+    border: none;
+}
+#dietLabel{
+    font-size: 20px;
+}
+#thankYou {
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+footer {
+    background-color: white;
+    border-radius: 8px;
+    width: 99.9%;
+    height: 120px;
+    box-shadow: 2px 2px 2px 2px darkorange;
+    border: 2px solid darkorange;
+    margin-top: 20px;
+    text-align: center;
+}
+#ImgbirdFooter {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+footer p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#ImgbirdFooter:hover {
+    background-color: darkorange;
+    box-shadow: -3px -3px 3px black;
+    border-radius: 5px;
+}
