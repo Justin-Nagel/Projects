@@ -1,4 +1,4 @@
-# **Programming Project Year 2**
+# **Programming Project - Year 2**
 
 This project was developed by a group of four students. We were required to create a **Windows-Based Application** that captures and stores student information into a database.
 
