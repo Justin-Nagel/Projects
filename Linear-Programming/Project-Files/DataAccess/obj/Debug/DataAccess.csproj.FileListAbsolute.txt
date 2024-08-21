@@ -1,0 +1,9 @@
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\bin\Debug\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\bin\Debug\Models.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\obj\Debug\DataAccess.csproj.Up2Date
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\DataAccess\obj\Debug\DataAccess.pdb
