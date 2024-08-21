@@ -1,4 +1,4 @@
-# **Wedding Website Project Year 1**
+# **Wedding Website Project - Year 1**
 
 Create a website for your friend who is getting married. The aim is to provide essential information about the wedding as well as fun details, such as the backstory of the couple. The website must be aesthetically pleasing and well-laid out. This project is divided into three milestones, which are described below.
 
