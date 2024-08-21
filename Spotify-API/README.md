@@ -6,7 +6,7 @@ This Node.js application interacts with the Twitter, Spotify APIs to retrieve an
 
 ## Features
 
-1. **Print Latest Tweets**: Fetch and display the latest tweets from a specified Twitter user.
+1. **~~Print Latest Tweets~~**: ~~Fetch and display the latest tweets from a specified Twitter user~~.
 2. **Spotify Song Lookup**: Retrieve and display information about a song from Spotify.
 
 ## Requirements
