@@ -1,0 +1,6 @@
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\bin\Release\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\bin\Release\Models.pdb
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\obj\Release\Common.csproj.AssemblyReference.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\obj\Release\Common.csproj.CoreCompileInputs.cache
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\obj\Release\Models.dll
+C:\Users\EstiaanBritz\Downloads\lpr project\lpr\Models\obj\Release\Models.pdb
